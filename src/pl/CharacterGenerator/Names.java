@@ -1,5 +1,8 @@
 package pl.CharacterGenerator;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -8,21 +11,23 @@ public class Names {
     public static String getMaleName() {
 
         ArrayList<String> maleName = new ArrayList<>();
-        maleName.add("Aaron");
-        maleName.add("Adam");
-        maleName.add("Adrian");
-        maleName.add("Alan");
-        maleName.add("Albert");
-        maleName.add("Alek");
-        maleName.add("Aleks");
-        maleName.add("Aleksander");
-        maleName.add("Aleksy");
-        maleName.add("Alex");
-        maleName.add("Alexander");
-        maleName.add("Alfred");
-        maleName.add("Allan");
-        maleName.add("Alojzy");
-        maleName.add("Amadeusz");
+        try {
+            // Uworzenie obiektu FileReader
+            FileReader fr = new FileReader("maleName.txt");
+
+            // Utworzenie obiektu bufferReader
+            BufferedReader bf = new BufferedReader(fr);
+
+            String linia;
+
+            while((linia = bf.readLine()) != null) {
+                maleName.add(linia);
+            }
+            fr.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         int randomIndex = ThreadLocalRandom.current().nextInt(maleName.size());
 
         return maleName.get(randomIndex);
