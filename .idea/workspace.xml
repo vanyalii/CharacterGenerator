@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f4d2075-8f15-447c-ba3d-5e4c411294ec" name="Default Changelist" comment="dodanie do klasy names czytania imion z pliki txt">
+    <list default="true" id="2f4d2075-8f15-447c-ba3d-5e4c411294ec" name="Default Changelist" comment="zmiana z czytania z pliku linia po lini na czytanie po przecinkach">
       <changelist_data name="" email="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maleName.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maleName.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/CharacterGenerator/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/CharacterGenerator/Names.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CharacterGenerator/pl/CharacterGenerator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CharacterGenerator/pl/CharacterGenerator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CharacterGenerator/pl/CharacterGenerator/Names.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CharacterGenerator/pl/CharacterGenerator/Names.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/CharacterGenerator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/CharacterGenerator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RPG-Character-Generator-master" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
@@ -214,7 +215,9 @@
       <workItem from="1580245476853" duration="338000" />
       <workItem from="1580246450092" duration="149000" />
       <workItem from="1581354396826" duration="5526000" />
-      <workItem from="1581856887742" duration="1681000" />
+      <workItem from="1581856887742" duration="1802000" />
+      <workItem from="1581858975539" duration="631000" />
+      <workItem from="1581883085975" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1579652178045</created>
@@ -251,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581358442107</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zmiana z czytania z pliku linia po lini na czytanie po przecinkach">
+      <created>1581858850456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581858850456</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +287,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="all" />
     <MESSAGE value="dodanie do klasy names czytania imion z pliki txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie do klasy names czytania imion z pliki txt" />
+    <MESSAGE value="zmiana z czytania z pliku linia po lini na czytanie po przecinkach" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiana z czytania z pliku linia po lini na czytanie po przecinkach" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Deployment" timestamp="1579652103999">
@@ -296,6 +307,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" width="816" height="729" key="#Intentions/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581365665589" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581885234020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885234020" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579121431269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -304,10 +319,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="281" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1579121586259" />
-    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578747438458">
+    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581858883331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1578747438458" />
+    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581858883331" />
     <state x="690" y="32" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578741309916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -320,18 +335,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1579652046099" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580246500762">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1581885177320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1580246500762" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885177320" />
     <state x="794" y="437" width="356" height="221" key="Github.CreateGistDialog" timestamp="1579650844261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="437" width="356" height="221" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1579650844261" />
-    <state x="820" y="454" key="Github.Dialog.Accounts.Choose" timestamp="1579652969067">
+    <state x="820" y="454" key="Github.Dialog.Accounts.Choose" timestamp="1581858865349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="820" y="454" key="Github.Dialog.Accounts.Choose/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1579652969067" />
+    <state x="820" y="454" key="Github.Dialog.Accounts.Choose/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581858865349" />
     <state x="813" y="414" width="396" height="245" key="Github.ShareDialog" timestamp="1579651184383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,22 +355,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1579651213838" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581858774916">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581885513750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581858774916" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581858774916">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885513750" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581885513750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581858774916" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581858774916">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885513750" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581885513750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581858774916" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581858774916">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885513750" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581885513750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581858774916" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885513750" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578784485451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -380,14 +395,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1578747138293" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581358446139">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581885556825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581358446139" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580246450333">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885556825" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581883218634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1580246450333" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581883218634" />
     <state x="665" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579116439384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
