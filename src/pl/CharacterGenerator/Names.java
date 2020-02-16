@@ -1,9 +1,8 @@
 package pl.CharacterGenerator;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 
@@ -12,20 +11,13 @@ public class Names {
 
         ArrayList<String> maleName = new ArrayList<>();
         try {
-            // Uworzenie obiektu FileReader
-            FileReader fr = new FileReader("maleName.txt");
-
-            // Utworzenie obiektu bufferReader
-            BufferedReader bf = new BufferedReader(fr);
-
-            String linia;
-
-            while((linia = bf.readLine()) != null) {
-                maleName.add(linia);
+            File file = new File("maleName.txt");
+            Scanner sc = new Scanner(file);
+            sc.useDelimiter(",");
+            while (sc.hasNext()){
+                maleName.add(sc.next());
             }
-            fr.close();
-
-        } catch (IOException e) {
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
         int randomIndex = ThreadLocalRandom.current().nextInt(maleName.size());
