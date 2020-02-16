@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f4d2075-8f15-447c-ba3d-5e4c411294ec" name="Default Changelist" comment="zmiana z czytania z pliku linia po lini na czytanie po przecinkach">
+    <list default="true" id="2f4d2075-8f15-447c-ba3d-5e4c411294ec" name="Default Changelist" comment="Dodanie loggerów">
       <changelist_data name="" email="" />
+      <change afterPath="$PROJECT_DIR$/femaleName.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maleName.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maleName.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CharacterGenerator/pl/CharacterGenerator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CharacterGenerator/pl/CharacterGenerator/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CharacterGenerator/pl/CharacterGenerator/Names.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CharacterGenerator/pl/CharacterGenerator/Names.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/CharacterGenerator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/CharacterGenerator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/CharacterGenerator/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/CharacterGenerator/Names.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +220,7 @@
       <workItem from="1581354396826" duration="5526000" />
       <workItem from="1581856887742" duration="1802000" />
       <workItem from="1581858975539" duration="631000" />
-      <workItem from="1581883085975" duration="2171000" />
+      <workItem from="1581883085975" duration="5170000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1579652178045</created>
@@ -261,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581858850456</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dodanie loggerów">
+      <created>1581885563527</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581885563527</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +298,8 @@
     <MESSAGE value="all" />
     <MESSAGE value="dodanie do klasy names czytania imion z pliki txt" />
     <MESSAGE value="zmiana z czytania z pliku linia po lini na czytanie po przecinkach" />
-    <option name="LAST_COMMIT_MESSAGE" value="zmiana z czytania z pliku linia po lini na czytanie po przecinkach" />
+    <MESSAGE value="Dodanie loggerów" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie loggerów" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Deployment" timestamp="1579652103999">
@@ -355,22 +366,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1579651213838" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581885513750">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581889004818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885513750" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581885513750">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581889004818" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581889004818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885513750" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581885513750">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581889004818" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581889004818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885513750" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581885513750">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581889004818" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581889004818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885513750" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581889004818" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578784485451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -395,10 +406,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1578747138293" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581885556825">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1581885566869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885556825" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1581885566869" />
     <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581883218634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
